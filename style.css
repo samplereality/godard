@@ -1,11 +1,32 @@
-/* CSS files add styling rules to your content */
-
+/*the background*/
 body {
-  font-family: helvetica, arial, sans-serif;
-  margin: 2em;
+  margin: auto;
+  background-color: White;
+  color: DimGray;
+  text-align: left;
+  font-size: x-large;
 }
 
-h1 {
-  font-style: italic;
-  color: #373fff;
+/*the title*/
+h2 {
+  color: dimgray;
+  text-align: center;
+  margin: 20px;
+}
+
+/*text box*/
+#content {
+	width: 75%;
+	margin: auto;
+}
+
+#reload {
+	width: 50%;
+	margin: 30px;
+}
+
+#about {
+  width: 50%;
+  font-size: small;
+  margin: auto;
 }
