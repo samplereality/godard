@@ -11,7 +11,7 @@ body {
 h2 {
   color: dimgray;
   text-align: center;
-  margin: 20px;
+  margin: 20px auto;
 }
 
 /*text box*/
@@ -21,12 +21,32 @@ h2 {
 }
 
 #reload {
-	width: 50%;
-	margin: 30px;
+	width: 75%;
+	margin: 30px auto;
 }
 
 #about {
-  width: 50%;
+  width: 75%;
   font-size: small;
   margin: auto;
+}
+
+button {
+  background-color: darkred; /* Green */
+  border-radius: 10px;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: auto;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: dimgray; /* Green */
+  color: white;
 }

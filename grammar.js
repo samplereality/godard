@@ -1,6 +1,6 @@
 var grammar = {
 	"origin": [
-		"#contamination#. #source#. #culprit#. #eyewitness#. #exposure#. #response#."
+		"#contamination#. #source#. #culprit#. #eyewitness#. <p>#exposure#. #response#."
 	],
 	
 	"firstSyl" : ["Ark", "Global", "Hammer", "Cent", "Dyna", "Archi", "Chem", "Petro"],
@@ -10,7 +10,7 @@ var grammar = {
 
 	"contamination" : ["#time# #amount# #disaster#"],
 	
-	"source" : ["#mysterysource# appears to be #accident#"],
+	"source" : ["#mysterysource# is likely #accident#"],
 	
 	"culprit" : ["The #manufacturer# #corporationname# #companytype# #operates# nearby #facilities#"],
 	
@@ -185,7 +185,7 @@ var grammar = {
 		"refineries"
 	],
 	"eyewitness": [
-		"#voice# #event#"
+		"#voice# what appears to be #event#"
 	],
 	"voice": [
 		"Eyewitnesses report",
