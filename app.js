@@ -6,7 +6,6 @@ $(document).ready(function() {
         $("#output").html("");
 
         var grammarTracery = tracery.createGrammar(grammar);
-        //$("#grammar").html(grammar.toText());
 
             var s = grammarTracery.flatten("#origin#");
             console.log(s);
