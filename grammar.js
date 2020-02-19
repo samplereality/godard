@@ -60,8 +60,7 @@ var grammar = {
 "water": ["#poison# contaminated #waterbody#"
 ],
 
-"poison": ["lead",
-"acetone cyanohydrin",
+"poison": ["acetone cyanohydrin",
 "aniline",
 "benzenearsonic acid",
 "cadmium oxide",
