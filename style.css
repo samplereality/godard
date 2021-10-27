@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
-  
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 /*the background*/
 body {
   margin: auto;
@@ -7,12 +7,11 @@ body {
   color: DimGray;
   text-align: left;
   font-size: x-large;
-  font-family: "Gloria Hallelujah";
-}
+font-family: 'Press Start 2P', cursive;}
 
 /*the title*/
 h2 {
-  color: dimgray;
+  color: darkgray;
   text-align: center;
   margin: 20px auto;
 }
@@ -43,18 +42,16 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 12px;
+  font-family: 'Press Start 2P', cursive;}
+
   margin: auto;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
 }
 
-button:hover {
-  background-color: darkred; /* Green */
-  color: white;
-}
 
 button:active {
-  background-color: red;
+  background-color: black;
   color: white;
 }
