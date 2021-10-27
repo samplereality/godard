@@ -1,7 +1,7 @@
 # Don't Drink the Water
 
 _Don't Drink the Water_ is small webtoy that uses Tracery to generate new ecological disasters.
-I put together the files here on Glitch as templates for students in my [Electronic Literature class](https://courses.digitaldavidson.net/elit20/tracery-project/) at Davidson College to use.
+I put together the files here on Glitch as templates for participants in my creative coding classes and workshops to use.
 
 ## Getting Started
 
