@@ -28,6 +28,4 @@ You can also drag and drop or upload images into the "assets" folder to include 
 
 ### Other Files
 
-The tracery.js and mods-eng-base.js files provide the procedural engine that makes the project work. You don't have to open or edit these at all. 
-
-In fact, you could break the project by messing with these!
+The tracery.js file provides the procedural engine that makes the project work. You don't have to open or edit this file at all. In fact, you could break the project by messing with it!
