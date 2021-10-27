@@ -20,7 +20,7 @@ The grammar.js file contains your actual Tracery grammar. I recommend using a to
 
 The style.css file is where you change the look of your project. Even if you don't know CSS, you should be able to muck around enough to change fonts, colors, and margins.
 
-You can find some tips on [styling CSS](https://courses.digitaldavidson.net/elit20/styling-tracery/) on the DIG 220 course site.
+You can find some tips on [styling CSS](https://courses.digitaldavidson.net/elit20/styling-tracery/) on one of my course sites.
 
 ### Assets
 
@@ -28,6 +28,6 @@ You can also drag and drop or upload images into the "assets" folder to include 
 
 ### Other Files
 
-The app.js and tracery.min.js files provide the procedural engine that makes the project work. You don't have to open or edit these at all. 
+The tracery.js and mods-eng-base.js files provide the procedural engine that makes the project work. You don't have to open or edit these at all. 
 
 In fact, you could break the project by messing with these!
