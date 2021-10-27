@@ -32,7 +32,7 @@ h2 {
 }
 
 button {
-  background-color: darkred; /* Green */
+  background-color: dimgray; /* Green */
   border-radius: 10px;
   border: none;
   color: white;
@@ -47,6 +47,11 @@ button {
 }
 
 button:hover {
-  background-color: dimgray; /* Green */
+  background-color: darkred; /* Green */
+  color: white;
+}
+
+button:active {
+  background-color: red;
   color: white;
 }

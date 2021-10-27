@@ -1,4 +1,4 @@
-var grammar = {
+var source = {
 	"origin": [
 		"#contamination#. #source#. #culprit#. #eyewitness#. <p>#exposure#. #response#."
 	],

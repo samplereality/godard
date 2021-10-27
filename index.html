@@ -18,10 +18,11 @@
     ></script>
 
     <script language="javascript" src="tracery.js"></script>
-
+    <script language="javascript" src="mods-eng-base.js"></script>
     <script language="javascript" src="grammar.js"></script>
 
     <script>
+      
       var grammar = tracery.createGrammar(source);
 
       function generatePoem() {
@@ -31,7 +32,7 @@
       }
     </script>
   </head>
-  <body>
+  <body onload="generatePoem()">
     <h2>Don't Drink the Water</h2>
 
     <div id="output">Loading disaster...</div>
