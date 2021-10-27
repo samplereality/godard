@@ -1,34 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-	<title>Don't Drink the Water</title>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-	
+  <head>
+    <title>Don't Drink the Water</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <!-- import the webpage's stylesheet -->
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="/style.css" />
 
     <!-- import the necessary javascript -->
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script src="tracery.min.js"></script>
-    <script src="grammar.js"></script>
-    <script src="app.js"></script>
-	
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.1.1.min.js"
+      integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
+      crossorigin="anonymous"
+    ></script>
+
+    <script language="javascript" src="tracery.js"></script>
+
+    <script language="javascript" src="grammar.js"></script>
+
+    <script>
+      var grammar = tracery.createGrammar(source);
+
+      function generatePoem() {
+        var result = grammar.flatten("#origin#");
+
+        output.innerHTML = result;
+      }
+    </script>
   </head>
-	<body>
-  
+  <body>
     <h2>Don't Drink the Water</h2>
-               
-				<div id="output">Loading disaster...</div>
-    
-        <div id="reload">
-             <button onclick="avascript:location.reload(true)">Another Disaster</button>
-        </div>
-		   
+
+    <div id="output">Loading disaster...</div>
+
+    <div id="reload">
+      <button onclick="generatePoem()">Another Disaster</button>
+    </div>
+
     <div id="about">
-Don't Drink the Water is inspired by Don DeLillo's <em>White Noise</em> and the 2014 <a href="http://en.wikipedia.org/wiki/2014_Elk_River_chemical_spill">Elk River chemical spill</a>. Data comes from the National Response Center's <a href="http://www.rtknet.org/db/erns">Spills and Accidents database</a>. Made by <a href="https://www.samplereality.com">Mark Sample</a> with <a href="https://github.com/galaxykate/tracery">Tracery</a>.</div>
-	
-</body>
+      Don't Drink the Water is inspired by Don DeLillo's
+      <em>White Noise</em> and the 2014
+      <a href="http://en.wikipedia.org/wiki/2014_Elk_River_chemical_spill"
+        >Elk River chemical spill</a
+      >. Data comes from the National Response Center's
+      <a href="http://www.rtknet.org/db/erns">Spills and Accidents database</a>.
+      Made by <a href="https://www.samplereality.com">Mark Sample</a> with
+      <a href="https://github.com/galaxykate/tracery">Tracery</a>.
+    </div>
+  </body>
 </html>
