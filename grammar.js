@@ -1,6 +1,6 @@
-var source = {
-  origin: ["#girl#", "#robot#", "#news#"],
-  activity: ["#happy#", "#sad#"],
+var rules = {
+  start: ["$girl | $robot | $news"],
+  activity: ["$happy | sad#"],
   girl: ["The girl and her robot #activity#."],
   happy: ["danced", "played cards", "skipped rope", "told each other stories"],
   sad: ["watched the rain", "searched for home"],
