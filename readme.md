@@ -1,6 +1,6 @@
-# Don't Drink the Water
+# Robot Daze
 
-_Don't Drink the Water_ is small webtoy that uses Tracery to generate new ecological disasters.
+_Robot Daze_ is small webtoy that uses RiTa to tell a story about a girl and her robot.
 I put together the files here on Glitch as templates for participants in my creative coding classes and workshops to use.
 
 ## Getting Started
@@ -14,7 +14,7 @@ index.html is the HTML file that contains standard HTML. You'll definitely want 
 
 ### grammar.js
 
-The grammar.js file contains your actual Tracery grammar. I recommend using a tool like Kate Compton's [Visual Tracery Editor](https://www.brightspiral.com/tracery/) while you're beginning to learn Tracery.
+The grammar.js file contains your actual RiTa grammar. Check out Daniel Howe's [documentation on grammars in RiTa](https://observablehq.com/@dhowe/tut-rita-grammars). 
 
 ### style.css
 
@@ -25,7 +25,3 @@ You can find some tips on [styling CSS](https://courses.digitaldavidson.net/elit
 ### Assets
 
 You can also drag and drop or upload images into the "assets" folder to include in your project.
-
-### Other Files
-
-The tracery.js file provides the procedural engine that makes the project work. You don't have to open or edit this file at all. In fact, you could break the project by messing with it!
