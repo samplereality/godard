@@ -21,3 +21,7 @@ var rules = {
   ],
   $topic: [".randomNoun()"],
 };
+
+// Tips for modifying RiTa grammars:
+
+
