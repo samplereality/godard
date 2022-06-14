@@ -1,5 +1,7 @@
 var rules = {
-  start: ["$girl[2] | $robot[3] | $news $news[5]"],
+  start: ["$context $story"],
+  context: ["Another day in the future. | The same things keep happening. | What happens next? | Gather 'round, children"],
+  story: ["$girl[2] | $robot[3] | $news $news[5]"],
   activity: ["$happy | $sad"],
   girl: ["The girl and her robot $activity."],
   happy: [
