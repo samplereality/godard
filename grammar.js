@@ -7,7 +7,7 @@ var rules = {
   robot: ["The robot thought $thoughts."],
   thoughts: ["$happyrobot | $sadrobot"],
   happyrobot: ["they were in love"],
-  sadrobot: ["his battery was dying"],
+  sadrobot: ["his battery was (dying | running low | empty)"],
   news: ["Days passed and the world grew warmer."],
   $topic: [".randomNoun()"]
 };
