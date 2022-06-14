@@ -10,7 +10,7 @@ let context = {
 
 function generatePrompt() {
   let rg = RiTa.grammar(rules, context); // load our grammar
-  let result = rg.expand(happy);
+  let result = rg.expand();
   $("#output").text(result);
 }
 
