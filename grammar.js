@@ -9,7 +9,7 @@ var rules = {
     "played cards",
     "skipped rope",
     "told each other stories",
-    "talked about the $topic. There was so much to say about the $topic",
+    "talked about the $topic. There was so much to say about the $topic.rhymes",
   ],
   sad: ["watched the (clouds | rain)", "searched for home"],
   robot: ["The robot thought $thoughts."],
