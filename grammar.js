@@ -1,5 +1,5 @@
 var rules = {
-  start: ["$girl[2] | $robot[3] | $news"],
+  start: ["$girl[2] | $robot[3] | $news $news[5]"],
   activity: ["$happy | $sad"],
   girl: ["The girl and her robot $activity."],
   happy: [
@@ -17,7 +17,7 @@ var rules = {
   ],
   sadrobot: ["his battery was (dying | running low | empty)"],
   news: [
-    "Days passed and the world grew warmer. | The nights were short and hot.",
+    "Days passed and the world grew warmer. | The nights were short and hot. | The (troops | rebels).nr() were (losing | gaining) ground. | (Another | A).nr() (rocket | satellite | ship).nr() launched at (dawn | daybreak).",
   ],
   $topic: [".randomNoun()"],
 };
