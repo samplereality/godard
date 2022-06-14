@@ -1,3 +1,5 @@
+// Define some functions that can be performed from within a grammar
+
 let context = {
   randomNoun: () => RiTa.randomWord({ pos: "nn" }),
   pluralNoun: () => RiTa.randomWord({ post: "nns" }),
