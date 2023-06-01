@@ -28,5 +28,6 @@ var rules = {
 // .nr() 	ensures a choice will never repeat its output
 // .s() 	pluralizes the noun phrase via the RiTa inflector
 //
-// More details at https://observablehq.com/@dhowe/tut-rita-grammars
-// and https://observablehq.com/@dhowe/riscript
+// More details at https://observablehq.com/@dhowe/tut-rita-grammars?collection=%40dhowe%2Frita
+//
+// and https://observablehq.com/@dhowe/riscript?collection=%40dhowe%2Frita
