@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
 
 /*the background*/
 body {
@@ -8,7 +8,8 @@ body {
   text-align: left;
   font-size: x-large;
   line-height: 150%;
-font-family: 'Press Start 2P', cursive;}
+  font-family: "Press Start 2P", cursive;
+}
 
 /*the title*/
 h2 {
@@ -19,13 +20,13 @@ h2 {
 
 /*text box*/
 #output {
-	width: 75%;
-	margin: auto;
+  width: 75%;
+  margin: auto;
 }
 
 #reload {
-	width: 75%;
-	margin: 30px auto;
+  width: 75%;
+  margin: 30px auto;
 }
 
 #about {
@@ -44,13 +45,8 @@ button {
   text-decoration: none;
   display: inline-block;
   font-size: 12px;
-  font-family: 'Press Start 2P', cursive;}
-
-  margin: auto;
-  -webkit-transition-duration: 0.4s; /* Safari */
-  transition-duration: 0.4s;
+  font-family: "Press Start 2P", cursive;
 }
-
 
 button:active {
   background-color: black;
