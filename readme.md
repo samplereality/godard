@@ -1,7 +1,6 @@
-# Robot Daze
+# The Godard Plot Generator
 
-_Robot Daze_ is small webtoy that uses RiTa to tell a story about a girl and her robot.
-I put together the files here on Glitch as templates for participants in my creative coding classes and workshops to use.
+_The Godard Plot Generator_ is an implementation of an experiment Umberto Eco proposes in his 1963 book _Misreadings_. Eco imagines that he has decoded the schematic structure of a Jean-Luc Godard film and creates a kind of Mad Lib style plot generator.
 
 ## Getting Started
 
