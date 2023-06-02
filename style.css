@@ -4,15 +4,23 @@ body {
   background-color: White;
   color: DimGray;
   text-align: left;
-  font-size: x-large;
+  font-size: 1.5rem;
   line-height: 150%;
 }
 
 /*the title*/
 h2 {
-  color: darkgray;
+  color: gray;
   text-align: center;
   margin: 20px auto;
+  font-size: 1.75rem;
+}
+
+h3 {
+  color: silver;
+  text-align: center;
+  margin: 20px auto;
+  font-size: 1.5rem;
 }
 
 /*text box*/
@@ -30,6 +38,7 @@ h2 {
   width: 75%;
   font-size: small;
   margin: auto;
+  line-height: 1.2rem;
 }
 
 button {

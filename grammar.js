@@ -1,7 +1,9 @@
 var rules = {
   start: "$title $plot",
   
-  title: "<h3><em>.randomNoun().cap</em> (dir. Jean-Luc Godard)</h3>",
+  title: "<h3><em>.randomNoun().cap</em> &lpar;dir. Jean-Luc Godard, $year&rpar;</h3>",
+  
+  year: "196(2|3|4|5|6|7|8|9)",
 
   plot: "He $arrives and then—$bang—$refinery explodes. $Americans $love $Cannibals armed with $bazookas $fire $railroad She $falls $Speed to $Vincennes $cohn $train and $speaks $men $kill He reads $Mao $Monte throws $bomb at $Diderot He $goes He $peddles $ending",
   
