@@ -1,5 +1,7 @@
 var rules = {
-  start: "He $arrives and then—$bang—$refinery explodes. $Americans $love $Cannibals armed with $bazookas $fire $railroad She $falls $Speed to $Vincennes $cohn $train and $speaks $men $kill He reads $Mao $Monte throws $bomb at $Diderot He $goes He $peddles $ending",
+  start: "$title He $arrives and then—$bang—$refinery explodes. $Americans $love $Cannibals armed with $bazookas $fire $railroad She $falls $Speed to $Vincennes $cohn $train and $speaks $men $kill He reads $Mao $Monte throws $bomb at $Diderot He $goes He $peddles $ending",
+  
+  "title": "<h2>Title</h2>",
 
   "arrives": [
     "arrives",
