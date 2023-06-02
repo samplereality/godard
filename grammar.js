@@ -129,7 +129,7 @@ var rules = {
     "roller skates"
   ],
 
-  speaks: ["speaks.", "bursts into tears.", "shouts Viva Guevara!"],
+  speaks: ["speaks.", "bursts into tears.", "shouts <em>Viva Guevara!</em>"],
 
   men: ["Two men", "A band of Indians"],
 
