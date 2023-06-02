@@ -1,22 +1,18 @@
 var rules = {
-  start: ["$context $story"],
-  context: [
+  start: "$context $story",
+  context: 
     "Another day in the future. | The same things keep happening. | What happens next? | Gather 'round, children, and listen. | A new day dawned.",
-  ],
-  story: ["$girl | $robot | $news"],
-  activity: ["$happy | $sad"],
-  girl: ["The girl and her robot $activity."],
-  happy: ["danced", "played cards", "skipped rope", "told each other stories"],
-  sad: ["watched the (clouds | rain)", "searched for home"],
-  robot: ["The robot thought $thoughts."],
-  thoughts: ["$happyrobot | $sadrobot"],
-  happyrobot: [
+  story: "$girl | $robot | $news",
+  activity: "$happy | $sad",
+  girl: "The girl and her robot $activity.",
+  happy: "danced | played cards | skipped rope | told each other stories",
+  sad: "watched the (clouds | rain) | searched for home",
+  robot: "The robot thought $thoughts.",
+  thoughts: "$happyrobot | $sadrobot",
+  happyrobot: 
     "they were in love | the world seemed brighter (today | this evening | tonight)",
-  ],
-  sadrobot: ["his battery was (dying | running low | empty)"],
-  news: [
-    "Days passed and the world grew warmer. | The nights were short and hot. | The (troops | rebels) were (losing | gaining) ground. | (Another | A) (rocket | satellite | ship) launched at (dawn | daybreak).",
-  ],
+  sadrobot: "his battery was (dying | running low | empty)",
+  news: "Days passed and the world grew warmer. | The nights were short and hot. | The (troops | rebels) were (losing | gaining) ground. | (Another | A) (rocket | satellite | ship) launched at (dawn | daybreak)."
 };
 
 // Tips for modifying RiTa grammars:
