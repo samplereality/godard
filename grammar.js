@@ -68,7 +68,7 @@ var rules = {
     "fire",
     "throw rocks",
     "throw bombs",
-    "throw empty cans of #color# paint",
+    "throw empty cans of $color paint",
     "pour some slippery stuff"
   ],
 
@@ -102,7 +102,7 @@ var rules = {
     "At mad speed",
     "Unsteadily",
     "Very, very slowly",
-    "Remaining still while the background (a process shot) moves"
+    "Remaining still while the background &lpar;a process shot&rpar; moves"
   ],
 
   Vincennes: [
@@ -177,7 +177,7 @@ var rules = {
   ],
 
   peddles: [
-    "peddles Le Figaro.",
+    "peddles <em>Le Figaro</em>.",
     "peddles the saying of Mao.",
     "writes a ta-tze-bao.",
     "reads verses of Pierre Emmanuel.",
