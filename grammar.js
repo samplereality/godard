@@ -27,7 +27,7 @@ var rules = {
     "the Communist Party headquarters",
     "the House of Parliament",
     "the Parthenon",
-    "the office of Le Figaro",
+    "the office of <em>Le Figaro</em>",
     "the Elysée",
     "Paris"
   ],
@@ -55,7 +55,7 @@ var rules = {
   bazookas: [
     "bazookas",
     "yagatans",
-    "copies of Le Figaro",
+    "copies of <em>Le Figaro</em>",
     "pirate's sabers",
     "submachine guns",
     "cans of $color paint",
