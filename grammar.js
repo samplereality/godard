@@ -11,7 +11,7 @@ var rules = {
     "jumps out of a window"
   ],
 
-  "bang": "bang | splash | splat | wham | rat-tat-tat", "mumble mumble"],
+  "bang": "bang | splash | splat | wham | rat-tat-tat | mumble mumble",
 
   "refinery": [
     "a refinery",
