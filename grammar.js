@@ -1,4 +1,4 @@
-var rules = {
+const rules = {
   start: "$title $plot",
   
   title: "<h3><em>.randomNoun().cap</em> &lpar;dir. Jean-Luc Godard, $year&rpar;</h3>",
