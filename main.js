@@ -1,6 +1,6 @@
 // Define some functions that can be performed from within a grammar
 
-const context = {
+let context = {
   randomNoun: () => RiTa.randomWord({ pos: "nn" }),
 };
 
