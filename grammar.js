@@ -1,98 +1,35 @@
 var rules = {
   start: "$title $plot",
   
-  title: "<h3><em>.randomNoun().cap</em> &lpar;dir. Jean-Luc Godard, $year&rpar;</h3>",
+  title: "<h3><em>$.randomNoun().cap</em> &lpar;dir. Jean-Luc Godard, $year&rpar;</h3>",
   
-  year: "196(2|3|4|5|6|7|8|9)",
+  year: "196[2|3|4|5|6|7|8|9]",
 
   plot: "He $arrives and then—$bang—$refinery explodes. $Americans $love $Cannibals armed with $bazookas $fire $railroad She $falls $Speed to $Vincennes $cohn $train and $speaks $men $kill He reads $Mao $Monte throws $bomb at $Diderot He $goes He $peddles $ending",
-  
 
-  arrives: [
-    "arrives",
-    "is already there reading the sayings of Mao",
-    "lies dead on the superhighway with brains spattered",
-    "is killing himself",
-    "harangues a crowd",
-    "runs along the street",
-    "jumps out of a window"
-  ],
+  arrives: "arrives | is already there reading the sayings of Mao | lies dead on the superhighway with brains spattered | is killing himself | harangues a crowd | runs along the street | jumps out of a window",
 
   bang: "bang | splash | splat | wham | rat-tat-tat | mumble mumble",
 
-  refinery: [
-    "a refinery",
-    "a kindergarten",
-    "Notre Dame",
-    "the Communist Party headquarters",
-    "the House of Parliament",
-    "the Parthenon",
-    "the office of <em>Le Figaro</em>",
-    "the Elysée",
-    "Paris"
-  ],
+  refinery: "a refinery | a kindergarten | Notre Dame | the Communist Party headquarters | the House of Parliament | the Parthenon | the office of <em>Le Figaro</em> | the Elysée | Paris",
 
-  Americans: [
-    "The Americans",
-    "The Germans",
-    "French paratroopers",
-    "The Vietnamese",
-    "Arabs",
-    "Israelis",
-    "The police"
-  ],
+  Americans: "The Americans | The Germans | French paratroopers | The Vietnamese | Arabs | Israelis | The police",
 
-  love: ["make love.", "do not make love."],
+  love: "make love | do not make love.",
 
-  Cannibals: [
-    "Cannibals",
-    "Indians",
-    "Hordes of accountants",
-    "Dissident Commmunists",
-    "Crazed truck drivers"
-  ],
+  Cannibals: "Cannibals | Indians | Hordes of accountants | Dissident Commmunists | Crazed truck drivers",
 
-  bazookas: [
-    "bazookas",
-    "yagatans",
-    "copies of <em>Le Figaro</em>",
-    "pirate's sabers",
-    "submachine guns",
-    "cans of $color paint",
-    "Picasso paintings",
-    "little red books",
-    "picture postcards"
-  ],
+  bazookas: "bazookas | yagatans | copies of <em>Le Figaro</em> | pirate's sabers | submachine guns | cans of $color paint | Picasso paintings | little red books | picture postcards",
 
-  fire: [
-    "fire",
-    "throw rocks",
-    "throw bombs",
-    "throw empty cans of $color paint",
-    "pour some slippery stuff"
-  ],
+  fire: "fire | throw rocks | throw bombs | throw empty cans of $color paint | pour some slippery stuff",
 
-  color: ["red", "green", "blue", "yellow", "black"],
+  color: "red | green | blue | yellow | black",
 
-  railroad: [
-    "on the railroad.",
-    "on the Elysée.",
-    "on the University of Nanterre.",
-    "in Piazza Navona.",
-    "all over the road."
-  ],
+  railroad: "on the railroad. | on the Elysée. | on the University of Nanterre. | in Piazza Navona. | all over the road.",
 
-  falls: [
-    "falls, $bullets",
-    "is thrown out of the window by CIA agents.",
-    "is captured by paratroopers.",
-    "is killed by Australian aborigines."
-  ],
+  falls: "falls, $bullets | is thrown out of the window by CIA agents | is captured by paratroopers. | is killed by Australian aborigines.",
 
-  bullets: [
-    "riddled with bullets from a $rifle",
-    "with a gaping wound in the belly.",
-    "spewing forth streams of $color paint.",
+  bullets: "riddled with bullets from a $rifle. | with a gaping wound in the belly. | spewing forth streams of $color paint.",
     "making love with Voltaire."
   ],
 
