@@ -73,5 +73,5 @@ const rules = {
     "peddles <em>Le Figaro</em>. | peddles the saying of Mao. | writes a ta-tze-bao. | reads verses of Pierre Emmanuel. | watches a Chaplin movie.",
 
   ending:
-    "The natives arrive. | The paratroopers arrive. | The Germans arrive. | Hordes of starving accountants brandishing sabers arrive. | Armored cars arrive. | Pier Paolo Pasolini with Pompidou arrives. | The bank holiday traffic arrives. | Diderot, selling the Encyclopédie door-to-door, arrives. | The Marxist-Leninist Union on skateboards arrive.",
+    "The natives arrive. | The paratroopers arrive. | The Germans arrive. | Hordes of starving accountants brandishing sabers arrive. | Armored cars arrive. | Pier Paolo Pasolini with Pompidou arrives. | The bank holiday traffic arrives. | Diderot, selling the Encyclopédie door-to-door, arrives. | The Marxist-Leninist Union on skateboards arrive."
 };
